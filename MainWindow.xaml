@@ -1,0 +1,14 @@
+﻿<Window x:Class="Automatische_Bewegung_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Automatische_Bewegung_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas x:Name="canvas">
+        <!--Achten Sie darauf, dass ihr Objekt nur Canvas.Left und Canvas.Bottom hat.-->
+        <Rectangle x:Name="box" Height="20" Width="20" Canvas.Left="10" Canvas.Bottom="10" Fill="BurlyWood" ></Rectangle>
+        <Label Content="0" FontSize="30" Name="label"></Label>
+    </Canvas>
+</Window>
